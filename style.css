@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    
+    .poppins-thin {
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+     
+}
+body {
+    background-image:url(./img/background-explicafabi1.png);
+    background-repeat: no-repeat no-repeat;
+    
+   
+    
+}
+.logo1{
+    
+   width: 40%;
+   height: 50px;
+   /* background-color: brown; */
+   position: relative;
+   top: -35px;
+   font-family: "Poppins", sans-serif;
+  
+   
+    }
+.log{
+    /* background-color: rgba(175, 41, 41, 0.315); */
+    width: 450px;
+    height: 700px;
+     padding-top: 55px;
+    position: relative;
+    margin: 0px  auto  auto;
+    right: 295px;
+    margin-top: 90px;
+    font-family: "Poppins", sans-serif;
+   
+   
+    
+    
+}
+
+.log1{
+width: 570px;
+height: 375px;
+position: relative;
+margin: 0px auto auto ;
+display:block;
+padding-top:50px;
+background-color:white;
+text-align: center;
+border-radius: 20px;
+font-family: "Poppins", sans-serif;
+
+
+}
+.form_email{
+    color: rgb(8, 8, 8);
+    position: relative;
+    right: 210px;
+    
+}
+.form_senha{
+    color: rgb(3, 3, 3);
+    position: relative;
+    right: 210px;
+    /* background-color: blue; */
+    top:15px;
+}
+.input_email{
+    width: 80%;
+    height: 25px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    margin-top: 2px;
+    padding-left: 5px;
+    border: 1px solid black;
+    background-color:white;
+    opacity:0.3 ;
+}
+.input_senha{
+    width: 80%;
+    height: 25px;
+    border-radius: 4px;
+    outline: none;
+   border: none;
+    margin-top: 17px;
+    padding-left: 5px;
+    border: 1px solid black;
+    background-color:white;
+    opacity:0.3 ;
+ 
+}
+
+.btnlog{
+    width: 40%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:white;
+    border: 1px solid;
+    opacity: 0.6;
+    font-family: "Poppins", sans-serif;
+}
+.btnlog:hover{
+    background-color: #a46eaf;
+    transition: 0.7s;
+  
+}
+.esqsenha{
+    margin-top: 15px;
+}
+
