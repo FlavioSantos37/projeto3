@@ -2,32 +2,28 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
-    
+
     .poppins-thin {
         font-family: "Poppins", sans-serif;
         font-weight: 100;
         font-style: normal;
       }
-     
+
 }
-body {
-    background-image:url(./img/background-explicafabi1.png);
-    background-repeat: no-repeat no-repeat;
-    
-   
-    
-}
+
 .logo1{
-    
+
    width: 40%;
    height: 50px;
    /* background-color: brown; */
    position: relative;
    top: -35px;
    font-family: "Poppins", sans-serif;
-  
-   
+
+
     }
+
+
 .log{
     /* background-color: rgba(175, 41, 41, 0.315); */
     width: 450px;
@@ -38,10 +34,10 @@ body {
     right: 295px;
     margin-top: 90px;
     font-family: "Poppins", sans-serif;
-   
-   
-    
-    
+
+
+
+
 }
 
 .log1{
@@ -62,7 +58,7 @@ font-family: "Poppins", sans-serif;
     color: rgb(8, 8, 8);
     position: relative;
     right: 210px;
-    
+
 }
 .form_senha{
     color: rgb(3, 3, 3);
@@ -94,7 +90,7 @@ font-family: "Poppins", sans-serif;
     border: 1px solid black;
     background-color:white;
     opacity:0.3 ;
- 
+
 }
 
 .btnlog{
@@ -111,9 +107,159 @@ font-family: "Poppins", sans-serif;
 .btnlog:hover{
     background-color: #a46eaf;
     transition: 0.7s;
-  
+
 }
 .esqsenha{
     margin-top: 15px;
 }
 
+/* padina curso */
+
+.topo{
+    background-color:#fff;
+    margin-top: 0px;
+    height: 60px;
+    padding-top: 6px;
+    padding-left: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#a46eaf ;
+}
+.logocurso{
+    width: 10%;
+    height: auto;
+}
+.icones{
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    
+}
+.pesquisa{
+    position: relative;
+    right: 10%;
+    width: 223px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    background-color: #f1f5f9;
+    border: transparent;
+    color:#94a3b8;
+    font-size: 15px;
+   background-image: url(./img/lupa.png);
+   background-repeat: no-repeat;
+   background-size: 30px;
+   background-position-x: right;
+   background-position-y: 5px;
+   
+}
+.sino{
+ height: 40px;
+ position: relative;
+ cursor: pointer;
+ /* background-color: #fff; */
+}
+
+.sino:hover{
+background-color: #f1f5f9;
+border-radius: 10px;
+}
+.avatar{
+    height: 40px;
+    cursor: pointer;
+}
+.inicio{
+    width: 75px;
+    height: 50px;
+    margin-top:60px;
+    border: none;
+    margin-left: 40px;
+    gap: 60px;
+    border-radius: .375rem;
+    font-weight: 600;
+    background-color: #a46eaf;
+    color: #fff;
+    
+}
+
+.btn_inicio{
+    width: 100%;
+    /* background-color: violet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 75%;    
+ 
+}
+.disponivel{
+    width: 100px;
+    height: 25px;
+    margin-top:60px;
+    border: none;
+    margin-left: 40px;
+    border-radius: 4px;
+    font-weight: 600;
+    
+}
+.disponivel:hover{
+    background-color: rgb(241 245 249);
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s;
+
+}
+h3{
+    
+   padding-top: 30px;
+   padding-left: 100px;
+   font-size: 1.25rem;
+   font-weight: 600;
+  
+}
+.conteudo{
+ /* background-color: #94a3b8; */
+  display: flex;
+  width: 100%;
+  text-align: center;
+  /* background-color: aqua; */
+}
+.curso{
+    width: 100%;
+    height: 310px;
+    padding: 5px;
+   
+    margin-top: 25px;
+    
+    
+    /* background-color: #94a3b8; */
+
+}
+.imgcurso{
+    max-width: 100%;
+    height: auto;
+    border-radius: .5rem;
+}
+.carddeprogresso{
+    max-width: 100%;
+    
+    margin-top: .25rem;
+    height: .25rem;
+    border-radius: 9999px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+}
+.titulos{
+    margin-top: 5px;
+    letter-spacing: -.025em;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.contexto{
+    margin-top: 5px;
+   font-size: 15px;
+}
